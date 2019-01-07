@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR');
+* { margin: 0; padding: 0; border: 0; text-decoration: none;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+ul, li { list-style: none;}
+a { color: inherit; }
+input[type="button"], input[type="submit"] { cursor:pointer; }
+
+
+.fc-main { color: #00a0df !important; }

@@ -1,0 +1,130 @@
+/* 상단 슬라이드 */
+.idxA { width: 100%; height: 420px; background: skyblue; }
+
+/* 후원하기 - 20190106 */
+.idxB {
+  padding: 43px 0;
+  background: #0eb0e4; /* Old browsers */
+  background: -moz-linear-gradient(left, #0eb0e4 0%, #29cccb 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #0eb0e4 0%,#29cccb 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #0eb0e4 0%,#29cccb 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0eb0e4', endColorstr='#29cccb',GradientType=1 ); /* IE6-9 */
+}
+.idxB p { text-align: center; font-size: 20px; font-weight: 300; color: #fff; }
+.idxB p a { display: inline-block; width:130px; margin-left: 24px; padding: 12px 0; border: 1px solid #fff; border-radius: 1000px; text-align: center; font-size: 18px; font-weight: 600; }
+@media all and (max-width: 768px) {
+  .idxB { text-align: center; }
+  .idxB p { width: 70%; margin: 0 auto; word-break: keep-all; }
+  .idxB p a { display: block; margin: 20px auto 0 auto; }
+}
+
+/* 활동 스토리 - 20190106 */
+.idxC { padding: 90px 0; }
+.idxC > div { width: 1080px; margin:0 auto; }
+.idxC > div > strong { display: block; margin: 0 auto; text-align: center; font-size: 30px; font-weight: 600; color: #333; }
+.idxC ul { font-size: 0; }
+.idxC ul li { position: relative; display: inline-block; width: 340px; margin-left: 30px; margin-top: 45px; }
+.idxC ul li:nth-child(3n-2) { margin-left: 0; }
+.idxC ul li img { width: 100%; }
+.idxC i { position: absolute; top: 12px; left: 12px; display:inline-block; padding: 5px 10px; background: #00a0df; border-radius: 2px; font-style: normal; font-size: 14px; font-weight: 600; color: #fff; }
+.idxC p { margin-top: 20px; font-size: 18px; font-weight: 400; color: #333; word-break: keep-all; }
+@media all and (max-width: 768px) {
+  .idxC { padding: 40px 0; }
+  .idxC > div { width: auto; }
+  .idxC > div > strong { margin-bottom: 30px; }
+  .idxC ul { padding: 0 20px; }
+  .idxC ul li { display: block; width: 100%; margin: 30px 0 0 0; }
+  .idxC ul li:first-child { margin-top: 0; }
+  .idxC ul li:nth-child(4), .idxC ul li:nth-child(5), .idxC ul li:nth-child(6) { display: none; }
+}
+
+/* 함께 참여하세요 - 20190106 */
+.idxD { padding: 90px 0; background: #f5f6f7; }
+.idxD > div { width: 1080px; margin: 0 auto; }
+.idxD .left { float: left; margin-top: 42px; }
+.idxD .left strong { display: block; margin-bottom: 22px; font-size: 32px; font-weight: 600; color: #333; }
+.idxD .left p { margin-bottom: 45px; font-size: 18px; font-weight: 300; color: #666; line-height: 160%; }
+.idxD .left a { display: block; width: 116px; padding: 11px 0; background: #676f72; border-radius: 1000px; font-size: 16px; font-weight: 400; color: #fff; text-align: center; }
+.idxD .right { text-align: right; }
+.idxD .right ul { font-size: 0; }
+.idxD .right ul li { display: inline-block; width: 340px; margin-left: 30px; box-shadow: 0 0 20px #e1e5e8; background: #fff; border-radius:5px; overflow: hidden; text-align: left; }
+.idxD .right ul li:first-child { margin-left: 0; }
+.idxD .right img { width: 100%; }
+.idxD .right i { display: block; margin: 30px 0 0 25px; font-style: normal; font-size: 14px; font-weight: 600; color: #8d8d8d; }
+.idxD .right strong { display: block; margin: 10px 0 4px 25px; font-size: 18px; font-weight: 400; color: #333; }
+.idxD .right span { display: block; margin: 0 0 30px 25px; font-size: 15px; font-weight: 300; color: #999; }
+@media all and (max-width: 768px) {
+  .idxD { padding: 40px 0;  }
+  .idxD > div { width: auto; }
+  .idxD .left { float: none; margin-top: 0; text-align: center; }
+  .idxD .left strong { margin-bottom: 30px; }
+  .idxD .left p, .idxD .left a { display: none; }
+  .idxD .right ul { padding: 0 20px; }
+  .idxD .right ul li { width: 100%; margin: 30px 0 0 0; }
+  .idxD .right ul li:first-child { margin-top: 0; }
+  .idxD .right i { margin-top: 20px; }
+  .idxD .right span { margin-bottom: 20px; }
+}
+
+/* 후기 - 20190106 */
+.idxE { padding: 40px 0; background: #2ea9dd; }
+.idxE > div { width: 740px; margin: 0 auto; }
+.idxE_img { float: left; border-radius: 1000px; }
+.idxE_p { position: relative; margin-top: 12px; padding:10px 0 0 280px; font-size: 20px; line-height: 160%; word-break: keep-all; font-weight: 300; color: #fff; }
+.idxE_p::before { content: ""; position: absolute; top: 0; left: 235px; width: 27px; height: 24px; background: url(../img/index/idxE_icon.png) no-repeat 0 0; }
+.idxE_span { display: block; margin-top: 16px; font-size: 15px; font-weight: 500; color: #ffd797; }
+.idxE .bx-pager { margin-top: 20px; }
+.idxE .bx-wrapper .bx-pager.bx-default-pager a { background: #fff; opacity: 0.35; }
+.idxE .bx-wrapper .bx-pager.bx-default-pager a:hover,
+.idxE .bx-wrapper .bx-pager.bx-default-pager a.active,
+.idxE .bx-wrapper .bx-pager.bx-default-pager a:focus { opacity: 1; }
+.idxE .bx-wrapper .bx-prev, .idxE .bx-wrapper .bx-next { top: 40%; width: 24px; height: 46px; background: url(../img/index/idxE_arrow.png); }
+.idxE .bx-wrapper .bx-prev { left: -90px; background-position: 0 0; }
+.idxE .bx-wrapper .bx-prev:hover { background-position: 0 -100px; }
+.idxE .bx-wrapper .bx-next { right: -90px; background-position: -100px 0; }
+.idxE .bx-wrapper .bx-next:hover { background-position: -100px -100px; }
+
+
+/* 전북겨레하나가 하는 일 - 20190106 */
+.idxF { width: 100%; padding-top: 130px; background: #f5f6f7; overflow: hidden; }
+.idxF > div { position: relative; width: 1080px; height: 360px; margin:0 auto; }
+.idxF_tit strong { display: block; margin-bottom: 22px; font-size: 32px; font-weight: 600; color: #333; }
+.idxF_tit p { margin-bottom: 45px; font-size: 18px; font-weight: 300; color: #666; }
+.idxF_slider_wrap { position: absolute; top: 10px; left: 470px; width: 1096px; }
+.idxF_slider > div { width: 264px; height: 270px; }
+.idxF_slider > div > a { display: block; width: 244px; height: 220px; margin: 10px; padding-top: 30px; border-radius: 5px; background: #fff; box-shadow: 0 0 20px #e1e5e8; text-align: center; font-size: 20px; font-weight: 500; color: #333;}
+.idxF_slider > div > a > img { display: block; margin: 0 auto 20px auto; border-radius: 1000px; }
+.idxF_prev, .idxF_next { display: inline-block; width: 20px; height: 38px; }
+.idxF_prev { margin-right: 40px; }
+.idxF_prev a, .idxF_next a { display: block; width: 100%; height: 100%; background: url(../img/index/idxF_arrow.png); text-indent: -1000px; overflow: hidden; }
+.idxF_prev a { background-position: 0 0; }
+.idxF_prev a:hover { background-position: 0 -100px; }
+.idxF_next a { background-position: -100px 0; }
+.idxF_next a:hover { background-position: -100px -100px; }
+.idxF .bx-pager { display: none; }
+.idxF .bx-wrapper .bx-pager.bx-default-pager a { box-shadow: 0 0 5px #ddd; background: #fff; }
+.idxF .bx-wrapper .bx-pager.bx-default-pager a:hover,
+.idxF .bx-wrapper .bx-pager.bx-default-pager a.active,
+.idxF .bx-wrapper .bx-pager.bx-default-pager a:focus { background: #00a0df; }
+@media all and (max-width: 768px) {
+  .idxF { padding-top: 40px; }
+  .idxF > div { width: auto; height: auto; padding-bottom: 60px; }
+  .idxF_tit { width: 80%; margin: 0 auto; text-align: center; }
+  .idxF_tit br { display: none; }
+  .idxF_tit p { margin-bottom: 20px; word-break: keep-all; }
+  .idxF_slider_wrap { position: relative; left: 50%; width: 872px; margin-left: -436px; }
+  .idxF_prev, .idxF_next { display: none; }
+  .idxF .bx-pager { display: block; margin-top: 10px; }
+}
+
+/* 공지, 보도자료 - 20190106 */
+.idxG { padding: 90px 0; font-size: 0; text-align: center; }
+.idxG > div { position: relative; display: inline-block; width: 490px; text-align: left; }
+.idxG > div:first-child { margin-right: 100px; }
+.idxG strong { font-size: 22px; font-weight: 600; color: #333; }
+.idxG > div > a { position: absolute; top: 8px; right: 0; }
+.idxG > div > ul { margin-top: 15px; }
+.idxG > div > ul > li { padding: 30px 0; border-top: 1px solid #e9e9e9; }
+.idxG > div > ul > li:first-child { border-top: 2px solid #b2b2b2; }
+.idxG > div > ul > li > a { display: inline-block; width: 80%; font-size: 17px; font-weight: 400; color: #333; }
+.idxG > div > ul > li > span { display: inline-block; width: 20%; text-align: right; font-size: 15px; font-weight: 400; color: #999; }
